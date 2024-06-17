@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Register</title></head>
+  <body  bgcolor="skyblue">
+    <fieldset>
+      <legend><h3>Register Form</h3></legend>
+      <form action="blog.html" >
+        <table border="1" bgcolor="lightgreen"align="center" cellpadding="10px"cellspacing="0">
+          <caption><h3>Register</h3></caption>
+          <tr>
+            <td><label for="firstname"><h3 align="center">Firstname:</h3></label></td>
+            <td>
+              <input
+                id="firstname"
+                type="text"
+                placeholder="Enter firstname"
+                required
+                autofocus
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lastname"><h3 align="center">Lastname:</h3></label>
+            </td>
+            <td>
+              <input id="lastname" type="text" placeholder="Enter lastname" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="age"><h3 align="center">Age:</h3></label>
+            </td>
+            <td>
+              <input id="age" type="number" placeholder="Enter the age" />
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2">
+              <label><h3 align="center">Gender:</h3></label>
+            </td>
+            <td>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="3"><label><h3 align="center">Hobbies:</h3> </label></td>
+      
+            <td>
+              <input
+                id="playing"
+                name="playing"
+                type="checkbox"
+                value="playing"
+              />  <label for="playing">Playing</label>
+            </td>
+            </tr>
+          
+          </tr>
+          <tr>
+            <td>
+              <input id="eating" type="checkbox" value="eating" name="eating" />
+                <label for="eating">Eating</label>
+            </td>
+           
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="checkbox"
+                id="Sleeping"
+                value="Sleeping"
+                name="Sleeping"
+              /><label for="Sleeping">Sleeping</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="email"><h3 align="center">Email:</h3></label>
+            </td>
+            <td>
+              <input
+                id="email"
+                type="email"
+                value="email"
+                required
+                placeholder="enter the email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pass"><h3 align="center">Password:</h3></label>
+            </td>
+            <td>
+              <input
+                id="pass"
+                type="password"
+                value="password"
+                placeholder="enter the password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pass"><h3 align="center">Confirm Password:</h3></label>
+            </td>
+            <td>
+              <input
+                id="pass"
+                type="password"
+                value="password"
+                placeholder="enter the password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><h3 align="center">Select State</h3></td>
+            <td>
+              <select>
+                <option value="Andhra Pradesh">AP</option>
+                <option value="Telangana">TS</option>
+                <option value="Tamil Nadu">TN</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><h3 align="center">Description:</h3></td>
+            <td>
+              <textarea rows="9" cols="70">Enter few words</textarea>
+            </td>
+          </tr>
+        <tr>
+            <td><h3 align="center">Fav fruit:</h3>
+              </td>
+              <td>
+            <input type="text" value="fruit" list="fruit" />
+              <datalist id="fruit">
+                <option value="apple">Apple</option>
+                <option value="mango">Mango</option>
+                <option value="banana">banana</option>
+              </datalist>
+            </td>
+          </tr>
+
+          <br />
+          <tr align="center">
+            <td>
+      <button type="submit"><h4>Submit Form</h4></button>
+        
+            </td>
+            <td align="center">
+              <input  type="reset">
+            </td>
+          </tr>
+        </table>
+        
+      </form>
+    </fieldset>
+  </body>
+</html>
